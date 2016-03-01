@@ -4,15 +4,83 @@
 	<title></title>
 
 <link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+
 </head>
 <body>
-	<div id="form wrapper">
+	<div id="form-wrapper">
 		<form id="sign-up-form">
 		
 		<div id="sign-up">
-
+			
+			<h1>Sign up now!<span>Sign up and tell me what you think of my site!</span></h1>
+			
 		</div>
 
+		<div id="name-wrapper">
+		<div class="section"><span>1</span>First Name & Address</div>
+		<div class="inner-wrapper">
+				<label>Your full name
+					<input type="text" name"fullName" placeholder="Your full name" value=""></input>
+				</label>
+
+			</div>
+		</div>
+
+		<div id="address-wrapper">
+			<label>Your address
+				<input type="text" name="address1" placeholder="Address" value=""></input>
+			</label>
+
+		</div>
+		<div class="section"><span>2</span>Email & Phone</div>
+			<div id="email-wrapper">
+				<label>Email
+				<input type="text" name="email" placeholder="Email" value=""></input>
+				</label>	
+				<label>Phone Number
+				<input type="text" name="phoneNumber" placeholder="Phone Number" value=""></input>
+				</label>	
+			</div>
+
+
+		<div class="section"><span>3</span>Password</div>
+			<div id="password-wrapper">
+				<label>Password
+				<input type="text" name="password" placeholder="Password" value=""></input>
+				</label>	
+				<label>Password
+				<input type="text" name="confirmPassword" placeholder="Confirm Password" value=""></input>
+				</label>	
+			</div>
+		<div class="section"><span>4</span>Skills</div>
+			<div id="skills-wrapper">
+				<label>My Technical Skills
+				<input type="text" name="techSkills" placeholder="My Technical Skills" list="listid">
+					<datalist id='listid'>
+						<option label="javascript" value="javascript"></option>
+						<option label="ruby" value="ruby"></option>
+						<option label="html" value="html"></option>
+						<option label="css" value="css"></option>
+
+
+				</input>
+				</label>	
+				<label>Age
+				<input type="text" name="age" placeholder="My Age" value=""></input>
+				</label>	
+				<div id="birthday-wrapper">
+				<label>Brithday
+				<input type="date" name="birthday" placeholder="Birthday" value=""></input>
+				</label>	
+				<label>Password
+			</div>
+			
+			<div id="button-wrapper">
+				<input type="submit" value="Sign Me Up!"></input>
+				<input type="checkBox" name="privacy">I agree to the terms and policies.</input>
+
+			</div>
 		
 		</form>
 	</div>
