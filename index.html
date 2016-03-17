@@ -6,10 +6,12 @@
 <link rel="stylesheet" type="text/css" href="css/reset.css">
 <link rel="stylesheet" type="text/css" href="css/styles.css">
 
+<script type="text/javascript" src="js/script.js"></script>
+
 </head>
 <body>
 	<div id="form-wrapper">
-		<form id="sign-up-form">
+		<form id="sign-up-form" onsubmit="return validate();">
 		
 		<div id="sign-up">
 			
@@ -73,16 +75,19 @@
 				<label>Brithday
 				<input type="date" name="birthday" placeholder="Birthday" value=""></input>
 				</label>	
-				<label>Password
+				
 			</div>
 			
 			<div id="button-wrapper">
 				<input type="submit" value="Sign Me Up!"></input>
-				<input type="checkBox" name="privacy">I agree to the terms and policies.</input>
+				<span class="privacy"><input type="checkBox" name="privacy">I agree to the terms and policies.</span></input>
 
 			</div>
 		
 		</form>
 	</div>
+
+
+	
 </body>
 </html>

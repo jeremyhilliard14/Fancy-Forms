@@ -54,3 +54,43 @@
 	padding: 10px 10px 10px 10px;
 }
 
+#button-wrapper input[type=submit]{
+	background: #2a88ad;
+    border-radius: 6px;
+    color: white;
+    border: 1px solid #257c9e;
+    cursor: pointer;
+    width: 120px;
+    float: left;
+    margin-top: 8px;
+}
+
+#button-wrapper .privacy {
+    float: right;
+    font: 12px serif;
+    color: #4d4d4d;
+    margin-top: 10px;
+}
+
+#button-wrapper .privacy input{
+    box-shadow: none;
+    width: initial;	
+    float: left;
+    margin: 2px 5px;
+}
+
+#address-wrapper label{
+	margin-top: 8px;
+}
+
+#email-wrapper label{
+	margin-top: 8px;
+}
+
+#password-wrapper label{
+	margin-top: 8px;
+}
+
+#skills-wrapper label{
+	margin-top: 8px;
+}
